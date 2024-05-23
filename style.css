@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.black{
+    width: 100%;
+    height: 93.5%;
+    position: absolute;
+    transform: skewY(12deg);
+    transform-origin: 100%;
+    background: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%);
+    display: flex;    
+    z-index: 0;
+}
+.main{
+    z-index: 0;
+}
+
+.smallbox{
+    display: flex;    
+    justify-content:flex-end;
+    flex-direction : column;
+    z-index: 0;
+}
+.box1, .box2{
+    box-shadow: 5px 1px 10px #373737;
+    width: 300px;
+    height: 200px;
+    background-color: #383d45;
+}
+.red{
+    width: 800px;
+    height: 150px;
+    background-color: #3a383889;
+    z-index: 0;
+}
+.red2{
+    width: 500px;
+    height: 200px;
+    background-color:#39373789;
+    align-self: flex-end;
+    z-index: 0;
+}
+.logo{
+    z-index: 1;
+    position: sticky;
+    width: 0px;
+    height: 0px;
+    display: flex;
+}
+.leetlogo{
+    margin-top: 20px;
+    margin-left:190px;
+    height: 40px;
+    width: 40px;
+}
+.letcode{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    margin-left:10px;
+}
+
+
