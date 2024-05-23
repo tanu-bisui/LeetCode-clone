@@ -26,18 +26,21 @@
     box-shadow: 5px 1px 10px #373737;
     width: 300px;
     height: 200px;
-    background-color: #383d45;
+    /* background-color: #383d45; */
+    background: linear-gradient(-150deg,#363e4a ,rgb(47, 50, 62) 90%);
 }
 .red{
     width: 800px;
     height: 150px;
-    background-color: #3a383889;
+    /* background-color: #3a383889; */
+    background: linear-gradient(120deg, rgb(37, 36, 36),#3a383889 65%);
     z-index: 0;
 }
 .red2{
     width: 500px;
     height: 200px;
-    background-color:#39373789;
+    /* background-color:#39373789; */
+    background:linear-gradient(120deg, rgb(46, 46, 46) 85%,#3a383889);
     align-self: flex-end;
     z-index: 0;
 }
@@ -109,3 +112,125 @@ li a.active:hover{
 /* li:hover{
     background-color:rgba(255, 255, 255,1) ;
 } */
+.new{
+    height: 0;
+    width: 0;
+    z-index: 1;;
+    position: sticky;
+    display: flex;
+}
+.im{
+    margin-top:160px ;
+    margin-left: 200px;
+    height: 300px;
+    width: 430px;
+    border-radius: 50px;
+    transform: rotate(350deg);
+    box-shadow: 5px 1px 10px #373737;
+}
+.side{
+    /* color: white; */
+    margin-top:220px ;
+    margin-left: 200px;
+    white-space: nowrap;
+    font-family: sans-serif;
+    /* font-size: 16px; */
+    text-align: center;
+}
+.learn{
+    margin-top: 30px;
+    font-size:15px;
+    line-height: 30px;
+    color: gray;
+}
+.way{
+    font-size: 40px;
+    color: white;
+}
+.create{
+    color: #f8fbfc;
+    background-color: #039b96;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 7px 12px;
+    border-radius: 1020px;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    border: 1px solid transparent;
+}
+.create:hover{
+    background-color: #17807d;
+    text-decoration: none;
+    box-shadow: none;
+}
+h3{
+    color: #309b97;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.l{
+    height: 60px;
+    width: 70px;
+}
+.white{
+    margin-top: 600px;
+    display: flex;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+.log{
+    display: flex;
+    margin-left:430px;
+    gap:30px;
+}
+pre{
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: rgb(156, 153, 153);
+    line-height: 15px;
+}
+.bt{
+    margin-top: 30px;
+    margin-left: 555px;
+    color: rgb(26, 159, 237);
+    letter-spacing: 0.03em;
+}
+a.btn:hover{
+    color: rgb(97, 211, 243);
+
+}
+.mask{
+    z-index: 1;
+    position: relative;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+}
+.stack{
+    position: absolute;
+    object-fit: cover;
+    border-radius: 35px;
+    box-shadow:5px 1px 5px #c9c4c4 ;
+}
+.yellow{
+    top: 50px;
+    left: 0;
+    z-index: 2;
+}
+.green{
+    left: 75px;
+    z-index: 3;
+    width: 200px;
+    height: 240px;
+    top: 25px;
+    /* opacity: 1; */
+}
+.blue{
+    top: 0; 
+    left: 150px; 
+    z-index: 4;
+    width: 250px;
+    height: 300px;
+}
+
+
