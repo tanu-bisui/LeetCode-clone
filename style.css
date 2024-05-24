@@ -310,7 +310,7 @@ a.btn:hover{
 .line2{
         margin-top: 80px;
         /* display: flex; */
-        margin-left: 50px;
+        margin-left: 55px;
         width: 2px;
         height: 350px;
         background-color: #ffffff;
@@ -321,7 +321,7 @@ a.btn:hover{
     margin-top: 80px;
     display: flex;
     position: relative;
-    margin-left: 230px;
+    margin-left: 200px;
 }
 .a1 ,.a2,.a3{
     width:70px;
@@ -346,7 +346,7 @@ a.btn:hover{
     margin-top: 80px;
     display: flex;
     position: relative;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 .b1,.b2{
     width:70px;
@@ -366,7 +366,7 @@ a.btn:hover{
 .contest{
     font-family: sans-serif;
     margin-top: 100px;
-    margin-left: 230px;
+    margin-left: 200px;
     white-space: nowrap;
     color: #60b4f5;
     font-size: 22px;
@@ -375,7 +375,7 @@ a.btn:hover{
 .para{
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 230px;
+    margin-left: 200px;
     white-space: nowrap;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -385,7 +385,7 @@ a.btn:hover{
 .view{
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 230px;
+    margin-left: 200px;
     line-height: 50px;
     cursor: pointer;
     color: #0a8bee;
@@ -399,7 +399,7 @@ a.btn:hover{
 .candi{
     font-family: sans-serif;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 110px;
     white-space: nowrap;
     color: #60b4f5;
     color: rgb(183, 137, 43);
@@ -409,7 +409,7 @@ a.btn:hover{
 .para2{
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 110px;
     white-space: nowrap;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -419,7 +419,7 @@ a.btn:hover{
 .oppor{
     font-family: sans-serif;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 110px;
     line-height: 50px;
     cursor: pointer;
     color: #0a8bee;
