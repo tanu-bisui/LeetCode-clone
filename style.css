@@ -222,7 +222,7 @@ a.btn:hover{
     left: 0;
     z-index: 2;
     animation-name:infiniupdown;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -234,7 +234,7 @@ a.btn:hover{
     top: 40px;
     /* opacity: 1; */
     animation-name:infinitupdown;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -245,7 +245,7 @@ a.btn:hover{
     width: 280px;
     height: 300px;
     animation-name:infiniteupdown;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
@@ -265,7 +265,7 @@ a.btn:hover{
         transform:perspective(900px) rotateY(-20deg) translateY(0px);
     }
     50%{
-        transform:perspective(900px) rotateY(-20deg) translateY(-10px);
+        transform:perspective(900px) rotateY(-20deg) translateY(-12px);
     }
     100%{
         transform:perspective(900px) rotateY(-20deg) translateY(0px);
@@ -276,7 +276,7 @@ a.btn:hover{
         transform:perspective(900px) rotateY(-20deg) translateY(0px);
     }
     50%{
-        transform:perspective(900px) rotateY(-20deg) translateY(-5px);
+        transform:perspective(900px) rotateY(-20deg) translateY(-8px);
     }
     100%{
         transform:perspective(900px) rotateY(-20deg) translateY(0px);        
