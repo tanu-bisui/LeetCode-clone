@@ -390,7 +390,7 @@ a.btn:hover{
     cursor: pointer;
     color: #0a8bee;
     letter-spacing: 0.03em;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 .view:hover{
     color: #60b4f5;
@@ -424,11 +424,39 @@ a.btn:hover{
     cursor: pointer;
     color: #0a8bee;
     letter-spacing: 0.03em;
-    font-size: 15px;
 }
 .oppor:hover{
     color: #60b4f5;
     background-color: transparent;
+}
+.dev{
+    z-index: 2;
+    position: sticky;
+    width: 0;
+    height: 0;
+}
+.develop{
+    margin-top: 525px;
+    width: 70px;
+    height: 60px;
+    margin-left: 725px;
+}
+.devel{
+    margin-left: 707px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(64, 174, 172);
+}
+.developer{
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-left: 500px;
+    /* white-space: nowrap; */
+    text-align: center;
+    /* line-height: 30px; */
+    color: rgb(168, 167, 167);
+    letter-spacing: 0.03em;
 }
 
 
