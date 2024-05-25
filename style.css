@@ -18,16 +18,17 @@
 }
 
 .smallbox{
-    display: flex;    
+    display: flex;   
     justify-content:flex-end;
     flex-direction : column;
     z-index: 0;
 }
-.box1, .box2{
-    box-shadow: 5px 1px 10px #373737;
+.abox3,.bbox2{
+    box-shadow: 2px 1px 10px #373636;
     width: 300px;
     height: 200px;
-    /* background-color: #383d45; */
+    position: relative;
+    z-index: 0;
     background: linear-gradient(-150deg,#363e4a ,rgb(47, 50, 62) 90%);
 }
 .red{
@@ -549,6 +550,7 @@ a.btn:hover{
     letter-spacing: 0.1em;
     font-family: sans-serif;
     padding: 10px;
+    cursor: pointer;
 }
 .c1:hover{
     color: #65d6f6;
@@ -565,6 +567,7 @@ a.btn:hover{
     letter-spacing: 0.1em;
     font-family: sans-serif;
     padding: 10px;
+    cursor: pointer;
 }
 .c2:hover{
     color: #65d6f6;
@@ -581,6 +584,7 @@ a.btn:hover{
     letter-spacing: 0.1em;
     font-family: sans-serif;
     padding: 10px;
+    cursor: pointer;
 }
 .c3:hover{
     color: #65d6f6;
@@ -604,6 +608,7 @@ a.btn:hover{
     font-size: 13px;
     letter-spacing: 0.1em;
     margin-left: 15px;
+    cursor: pointer;
 }
 .aa:hover{
     color: #65d6f6;
@@ -616,6 +621,7 @@ a.btn:hover{
    background-color: white;
    border: transparent;
    border-top-left-radius: 3px;
+   cursor: pointer;
 }
 .c:hover{
     background-color: rgb(232, 227, 227);
@@ -628,6 +634,7 @@ a.btn:hover{
     margin-left: -5px;
     background-color:rgb(222, 220, 220);
     border: 1px solid rgb(194, 192, 192);
+    cursor: pointer;
  }
  .Java:hover{
     background-color: rgb(232, 227, 227);
@@ -641,6 +648,7 @@ a.btn:hover{
     background-color:rgb(222, 220, 220);
     border: 1px solid rgb(194, 192, 192);
     border-top-right-radius: 3px;
+    cursor: pointer;
  }
  .python:hover{   
     background-color: rgb(232, 227, 227);
@@ -655,6 +663,7 @@ a.btn:hover{
     background-color: white;
     margin-left: 435px;
     margin-right: 5px;
+    cursor: pointer;
  }
  .copy:hover{
     background-color: rgb(199, 196, 196);
@@ -668,6 +677,7 @@ a.btn:hover{
     background-color:#30af30;
     color: white;
     margin-right: 5px;
+    cursor: pointer;
  }
  .Run:hover{
     background-color: rgb(68, 157, 68);
@@ -680,10 +690,159 @@ a.btn:hover{
     border: 1px solid rgb(194, 192, 192);
     background-color:black;
     color: white;
+    cursor: pointer;
  }
  .Playground:hover{
     background-color: rgb(46, 45, 45);
  }
+ .po{
+    margin-top: 1259px;
+    background-color: white;
+    height: 500px;
+ }
+.red-logo{
+    position: sticky;
+    z-index: 2;
+    margin-left: 730px;
+}
+.red-w{
+    margin-left: 660px;
+    line-height: 80px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: red;
+    font-weight: 600;
+}
+.para4{
+    margin-left: 450px;
+    margin-top: -10px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    font-family: sans-serif;
+    color: rgb(199, 194, 194);
+}
+.all{
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+.all-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: -250px;
+}
+.face{
+    width: 130px;
+    height: 130px;
+    /* filter: grayscale(80%); */
+    /* fill: rgb(106, 103, 103);  */
+    filter: invert(50%) opacity(60%);
+}
+.leap{
+    width: 80px;
+    height: 80px;
+    filter: invert(50%) opacity(60%);
+}
+.apple{
+    width: 40px;
+    height: 40px;
+    filter: invert(50%) opacity(60%);
+}
+.uber{
+    width: 60px;
+    height: 60px;
+    filter: invert(50%) opacity(60%);
+}
+.square{
+    width: 60px;
+    height: 60px;
+    filter: invert(50%) opacity(60%);
+}
+.jet{
+    width: 60px;
+    height: 30px;
+    filter: invert(50%) opacity(60%);
+}
+.intel{
+    width: 60px;
+    height: 60px;
+    filter: invert(50%) opacity(60%);
+}
+.amazon{
+    width: 100px;
+    height: 100px;
+    filter: invert(50%) opacity(60%);
+}
+.bank{
+    width: 200px;
+    height: 100px;
+    filter: invert(50%) opacity(60%);
+}
+.pin{
+    width: 100px;
+    height: 100px;
+    filter: invert(50%) opacity(60%);
+}
+.cisco{
+    width: 100px;
+    height: 100px;
+    filter: invert(50%) opacity(60%);
+}
+.stripe{
+    width: 70px;
+    height: 70px;
+    filter: invert(50%) opacity(60%);
+}
+.line-4{
+    height: 1px;
+    width: 600px;
+    background-color: rgb(205, 204, 204);
+    position: relative;
+    margin-left: 460px;
+    margin-top: 10px;
+
+}
+.last{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(193, 189, 189);
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.lassst{
+    color: #0a8bee;
+    margin-left: 720px;
+    text-decoration: none;
+    line-height: 80px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.lasst{
+    height: 1px;
+    width: 1200px;
+    background-color: rgb(205, 204, 204);
+    position: relative;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.at-last{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+    font-size: 16px;
+}
+.at{
+    white-space: none;
+}
+.Happy{
+    margin-left: 350px;
+}
 
 
 
