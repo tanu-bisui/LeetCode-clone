@@ -91,6 +91,124 @@
 developers. Our powerful development tools such as Playground help you test,<br>
                     debug and even write your own projects online.</pre>
             </div>
+            <div class="box11">
+                <div class="box1">
+                    <div class="box">
+                    <div class="up-box">
+                        <button class="c">C++</button>
+                        <button class="Java">Java</button>
+                        <button class="python">Python</button>
+                            <button class="copy">Copy</button>
+                            <button class="Run">Run</button>
+                            <button class="Playground">Playground</button>
+                    </div>
+                    <div class="low-box">
+                        <pre class="c-code"> 1.  #include <iostream>
+ 2.  using namespace std;
+ 3.  
+ 4.  // Node structure
+ 5.  struct Node {
+ 6.      int data;
+ 7.      Node* next;
+ 8.  };
+ 9.  
+10. // Function to create a new node
+11. Node* createNode(int data) {
+12.     Node* newNode = new Node();
+13.     newNode->data = data;
+14.     newNode->next = nullptr;
+15.     return newNode;
+16. }
+17. 
+18. // Function to insert a node at the beginning
+19. void insertAtBeginning(Node*& head, int data) {
+20.     Node* newNode = createNode(data);
+21.     newNode->next = head;
+22.     head = newNode;
+23. }
+24. 
+25. // Function to insert a node at the end
+26. void insertAtEnd(Node*& head, int data) {
+27.     Node* newNode = createNode(data);
+28.     if (head == nullptr) {
+29.         head = newNode;
+30.     } else {
+31.         Node* temp = head;
+32.         while (temp->next != nullptr) {
+33.             temp = temp->next;
+34.         }
+35.         temp->next = newNode;
+36.     }
+37. }
+38. 
+39. // Function to display the linked list
+40. void displayList(Node* head) {
+41.     Node* temp = head;
+42.     while (temp != nullptr) {
+43.         cout << temp->data << " -> ";
+44.         temp = temp->next;
+45.     }
+46.     cout << "NULL" << endl;
+47. }
+48. 
+49. // Function to delete a node with a specific value
+50. void deleteNode(Node*& head, int key) {
+51.     Node* temp = head;
+52.     Node* prev = nullptr;
+53.     
+54.     // If head node itself holds the key to be deleted
+55.     if (temp != nullptr && temp->data == key) {
+56.         head = temp->next; // Changed head
+57.         delete temp;       // Free old head
+58.         return;
+59.     }
+60.     
+61.     // Search for the key to be deleted
+62.     while (temp != nullptr && temp->data != key) {
+63.         prev = temp;
+64.         temp = temp->next;
+65.     }
+66.     
+67.     // If key was not present in linked list
+68.     if (temp == nullptr) return;
+69.     
+70.     // Unlink the node from linked list
+71.     prev->next = temp->next;
+72.     
+73.     delete temp; // Free memory
+74. }
+75. 
+76. int main() {
+77.     Node* head = nullptr;
+78.     
+79.     insertAtEnd(head, 1);
+80.     insertAtEnd(head, 2);
+81.     insertAtEnd(head, 3);
+82.     insertAtBeginning(head, 0);
+83.     
+84.     cout << "Linked list: ";
+85.     displayList(head);
+86.     
+87.     deleteNode(head, 2);
+88.     
+89.     cout << "Linked list after deletion: ";
+90.     displayList(head);
+91.     
+92.     return 0;
+93. }</pre>
+                        <div class="number-box"></div>
+                        <div class="code-box"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="four">
+                    <button class="c1">&lt;/&gt;    Linked List</button>
+                    <button class="c2">&lt;/&gt; Binary Tree</button>
+                    <button class="c3">&lt;/&gt; Fibonacci</button>
+                    <div class="small-line"></div>
+                    <a class="aa">Create Playground  ></a>
+                </div>
+            </div>
         <div class="grey">
             <div class="grey1"></div>
         <div class="grey2"></div>
