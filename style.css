@@ -159,6 +159,7 @@ li a.active:hover{
     font-family: sans-serif;
     letter-spacing: 0.03em;
     border: 1px solid transparent;
+    cursor: pointer;
 }
 .create:hover{
     background-color: #17807d;
