@@ -413,9 +413,17 @@ a.btn:hover{
     display: flex;
     /* margin-right: 150px; */
     /* width: 400px; */
-    width: 50%;
+    width: 400px;
     height: 300px;
 }
+@media (max-width:767px) {
+    .mask{ width: 40%;
+ }
+ }
+@media (max-width:700px) {
+    .mask{ width: 50%;
+ }
+ }
 @media (max-width:600px) {
    .mask{ width: 60%;
 }
