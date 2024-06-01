@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .black{
     width: 100%;
@@ -362,6 +364,7 @@ li a.active:hover{
         margin: 0rem auto -1rem auto;
         display: flex;
         justify-content: center;
+        box-sizing: border-box;
         align-items: center;
     }
     .mask .blue{
@@ -409,9 +412,34 @@ a.btn:hover{
     /* margin-left: 150px; */
     display: flex;
     /* margin-right: 150px; */
-    width: 400px;
+    /* width: 400px; */
+    width: 50%;
     height: 300px;
 }
+@media (max-width:600px) {
+   .mask{ width: 60%;
+}
+}
+@media (max-width:500px) {
+    .mask{
+         width: 70%;
+ }
+ }
+ @media (max-width:430px) {
+    .mask{
+         width: 80%;
+ }
+ }
+ @media (max-width:380px) {
+    .mask{
+         width: 90%;
+ }
+ }
+ @media (max-width:340px) {
+    .mask{
+         width: 100%;
+ }
+ }
 .stack{
     position: absolute;
     object-fit: cover;
@@ -1441,6 +1469,7 @@ a.btn:hover{
 @media (max-width:430px) {
     .all-logo{
         margin-top: 180px;
+        width:95vw;
     }
 }
 @media (max-width:376px) {
@@ -1647,9 +1676,15 @@ a.btn:hover{
     .end-last{
         margin-top: 5px;
         margin-left: 0;
+        margin-bottom: 10px;
     }
     .at{
         margin-left: 0;
+    }
+}
+@media (max-width:400px) {
+    .body{
+        overflow-x: hidden;
     }
 }
 
